@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GPT-EMR</title>
+    <link rel="stylesheet" href="./GPT_EMR_Web.css"></link>
+  </head>
+  <body>
+    <div class="title">
+      <h1 >GPT-EMR</h1>
+      <input type="text" placeholder="GPT 입력">
+      <h2>환자조회</h2>
+    </div>
+    <div>
+      <div class="menu">
+        <h3>환자 정보</h3>
+        <hr>
+        <div class="info">
+        <p>성명: 홍길동</p>
+        <p>나이: 30세</p>
+        <p>성별: 남</p>
+        <p style="font-size: 35px">증상<br>- 두통, 발열</p>
+        <p style="font-size: 35px">처방<br>- 휴식 및 약물 처방</p>
+      </div>
+      </div>
+      <div class="main">
+        <table class="patients" border="1">
+          <tbody>
+            <tr class="infoTr">
+              <td class="index">No</td>
+              <td class="name">이름</td>
+              <td class="age">나이</td>
+              <td class="gender">성별</td>
+              <td class="diagnosis">증상</td>
+              <td class="prescription">처방</td>
+            </tr>
+            <tr class="selectTr">
+              <td class="index">1</td>
+              <td class="name">홍길동</td>
+              <td class="age">30</td>
+              <td class="gender">남</td>
+              <td class="diagnosis">두통, 발열</td>
+              <td class="prescription">휴식 및 약물 처방</td>
+            </tr>
+            <tr>
+              <td class="index">2</td>
+              <td class="name">박영희</td>
+              <td class="age">45</td>
+              <td class="gender">여</td>
+              <td class="diagnosis">가슴 통증, 호흡 곤란</td>
+              <td class="prescription">심전도 및 혈압 측정</td>
+            </tr>
+            <tr>
+              <td class="index">3</td>
+              <td class="name">김철수</td>
+              <td class="age">55</td>
+              <td class="gender">남</td>
+              <td class="diagnosis">피로감, 소화불량</td>
+              <td class="prescription">혈압 측정 및 식이 조절 권고</td>
+            </tr>
+            <tr>
+              <td class="index">4</td>
+              <td class="name">이영자</td>
+              <td class="age">38</td>
+              <td class="gender">여</td>
+              <td class="diagnosis">피부 발진, 가려움증</td>
+              <td class="prescription">알러지 검사 및 항히스타민제 처방</td>
+            </tr>
+            <tr>
+              <td class="index">5</td>
+              <td class="name">정민호</td>
+              <td class="age">50</td>
+              <td class="gender">남</td>
+              <td class="diagnosis">허리 통증</td>
+              <td class="prescription">요통 진단 및 통증 완화 치료법 안내</td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    </div>
+  </body>
+</html>
